@@ -19,7 +19,7 @@ public class WordCountTest {
 	@Test
 	public void testForWordCount() throws IOException {
 	
-		int result = wordcount.wordCount();
+		int result = wordcount.wordCount("C:\\Java_work\\FileExistTest.txt");
 		
 		assertEquals(12,result);
 	}
